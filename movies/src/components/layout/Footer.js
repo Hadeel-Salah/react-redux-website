@@ -1,28 +1,28 @@
 import React from 'react';
+import './footer.css';
+//recommended to make a module then import all then take from it, need to ask mentor which good more!
 
 function Footer() {
   return (
-    <div>
-      <div className="row">
-        <div className="col-md-12">
-          <div className="footer p-3 mt-4 text-center bg-dark text-light">
-            Developed By:
-            <span className="text-warning font-weight-normal">
-              Hadeel Salah
-            </span>
-            , Using <i className="fab fa-react" /> React JS &amp; Redux JS
-            integrated with external movies data API
-            <a
-              href="http://www.omdbapi.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              OMDB
-            </a>
-          </div>
+    
+    
+      <div class="footer">
+           <p> © If someone did own the copyright to this layout
+            they’d be rich ! This design by Hadeel Salah </p>
+            
+            <p>Palestine | Gaza | Toines 21 Street</p>
+            <ul>
+                <li> <img  alt="" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-48.png"/></li>
+                <li> <img  alt="" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_black-64.png"/></li>
+               <li> <img alt="" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-48.png"/></li>
+               
+           </ul>
+                
         </div>
-      </div>
-    </div>
+    
+
+    
+    
   );
 }
 

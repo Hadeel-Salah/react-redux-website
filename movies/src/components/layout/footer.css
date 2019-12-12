@@ -1,0 +1,41 @@
+
+.footer{
+   
+    background-color:#efe5e4;
+    text-align: center;
+    font-size: 1em; 
+    color: white;
+    background-color: #901213;
+    height: 150px;
+    padding-top: 1px;
+  
+   
+}
+.App .profile h2, .footer{
+  font-family: Georgia;
+  
+}
+.footer ul{
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer ul li{
+  display: inline-block;
+}
+.footer ul li img{
+  width: 64px;
+  text-align: center;
+  margin-right: 50px ;
+}
+.footer a{
+   text-decoration: none; 
+   color:gainsboro;
+     
+
+}
+
+
+
+

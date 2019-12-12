@@ -57,7 +57,7 @@ export class Movie extends Component {
                 href={'https://www.imdb.com/title/' + movie.imdbID}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-primary"
+                className="btn btn-danger"
               >
                 View on IMDB
               </a>
