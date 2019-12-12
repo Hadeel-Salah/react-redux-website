@@ -1,5 +1,5 @@
 // in any reducer, test the action and each action have pram, the first is type then dependen on type it take state and the decond parm is payload is he data cpming fom action
-import { SEARCH_MOVIE, FETCH_MOVIES} from '../actions/types';
+import { SEARCH_MOVIE, FETCH_MOVIES, FETCH_MOVIE, LOADING} from '../actions/types';
 const initalState = {
     text : '', //user entering
     movies : [], // the search result, json data
@@ -22,6 +22,17 @@ export default function(state = initalState, action) {
                loading :false
 
                 };
+        case FETCH_MOVIE:
+             return {
+               ...state, 
+               movie : action.payload,
+               loading :false
+                  };
+        case LOADING:
+            return {
+                ...state, 
+                loading : true,
+                  };
             
             default:
                 return state;

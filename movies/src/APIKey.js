@@ -1,4 +1,5 @@
-module.exports={
-    APIkey :'f0c2f223'
 
-};
+   const APIkey ='820973d7'
+   
+   export default APIkey;
+

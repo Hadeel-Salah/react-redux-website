@@ -1,13 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
  function Navbar(){
      return(
          <div>
              <nav className="navbar bavbar-light bg-dark mb-5">
                 <div className="container">
                     <div className ="navbar-header">
-                    <a className = "navbar-brand text-white text-lg brand-text" herf ="">
+                    <Link className = "navbar-brand text-white text-lg brand-text" to ="/">
                             MovieSeriesInfo
-                    </a>
+                            
+                            
+                    </Link>
                     </div>
                     <ul className ="navbar-nav ml-auto text-light d-inline-block">
                     <li className ="nav-item d-inline-block mr-4">
@@ -25,7 +28,7 @@ import React from 'react';
             </nav>
 
          </div>
-     )
+     );
  }
 
  export default Navbar
