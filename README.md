@@ -1,2 +1,2 @@
 # React-Redux-website
-A Movie website created by React and Redux
+A Movie website created using React and Redux
