@@ -1,5 +1,6 @@
 //contianer for basic components in our app
-import React, { Component } from 'react';
+//Landing
+import React, { Component } from 'react'; 
 
 import { connect } from 'react-redux';
 
