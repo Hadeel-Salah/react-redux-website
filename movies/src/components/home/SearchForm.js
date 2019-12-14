@@ -7,6 +7,7 @@ export class SearchForm extends Component{
     onChange = e => {
         this.props.searchMovie(e.target.value);
         //state will take the value of any input
+        //why actions is capital? 
     };
     onSubmit = e => {
       e.preventDefault();
