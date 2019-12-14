@@ -10,7 +10,6 @@ export const searchMovie = text => dispatch => {
     payload: text
   });
 };
-console.log(APIKey);
 export const fetchMovies = text => dispatch => {
   axios
     .get(`https://www.omdbapi.com/?apikey=${APIKey}&s=${text}`)
