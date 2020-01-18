@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-//recommended to make a module then import all then take from it, need to ask mentor which good more!
+//recommended to make a module then import all then take from it, need to ask mentor which good more!.
 
 function Footer() {
   return (
