@@ -1,2 +1,2 @@
 # React-Redux-website
-Movienass is aMovie website created using React and Redux.
+Movienass is a Movie website created using React and Redux.
