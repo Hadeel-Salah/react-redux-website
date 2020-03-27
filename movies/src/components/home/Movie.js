@@ -80,6 +80,8 @@ const mapStateToProps = state => ({
   movie: state.movies.movie
 });
 
+/*here Mar,27th*/
+
 export default connect(
   mapStateToProps,
   { fetchMovie, setLoading }
