@@ -4,9 +4,9 @@
   "private": true,
   "engines": {
     "node": "12.13.0",
-    "npm" : "6.14.5"
+    "npm": "6.14.5"
   },
-  "homepage": "https://hadeelsala7.github.io/React-Redux-website",
+  "homepage": "https://hadeelsala7.github.io/ReactReduxWebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
