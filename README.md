@@ -1,8 +1,8 @@
 # Project Description
-It's a project to apply what I have learned in React.js and Redux. The project consists of several pages 
-The main page is a search page in which the user has to type any movie he wants to search for then the results show up! 
-Any user can search and use the website.In addition to that, 
-any user can see the details about the movie.
+The project main goal is to display the results for the movie which the user searches for. 
+The movie shows with the details page that the user can see it completely with different details about the film.
+No need to sign In/Sign Up for using the website.
+
 
 # How to run the code
 1- Download the code-base.
