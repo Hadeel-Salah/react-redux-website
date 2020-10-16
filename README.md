@@ -13,13 +13,13 @@ any user can see the details about the movie.
 
  
 # Tech stack
-  React.js
-  Axios
-  React-Redux"
-  Redux
-  Redux-Thunk
-  IMDb API
-  Bootstrap
+  1. React.js
+  2. Axios
+  3. React-Redux"
+  4. Redux
+  5. Redux-Thunk
+  6. IMDb API
+  7. Bootstrap
   
 
 
